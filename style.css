@@ -4,6 +4,7 @@
   box-sizing: border-box;
   /* outline: 2px solid lime; */
 }
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -16,6 +17,10 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
 }
 
 .item {
@@ -25,6 +30,7 @@ body {
 }
 
 .landing-page {
+  margin-top: 7.5vh;
   width: 100vw;
   position: relative;
 }
@@ -200,4 +206,8 @@ form button {
   background-color: #333;
   color: #fff;
   font-weight: 500;
+}
+
+.margin-y {
+  margin-top: 9vh;
 }
